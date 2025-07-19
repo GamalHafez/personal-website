@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Gamal Hafez</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="assets/videos/loop.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <header class="header">
+        <label class="burger-menu" for="burger"></label>
+        <input id="burger" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            class="toggle__checkbox"
+            id="toggle"
+            name="toggle checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="section bio">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <strong class="bio__highlight">Gamal Hafez</strong> I’m a
+            recent graduate from a business college, and I’m now shifting my
+            career to become a web developer. I have a good understanding of
+            Python, and I'm currently learning
+            <strong class="bio__highlight">HTML, CSS, and JavaScript.</strong>
+          </p>
+          <a href="#contact" class="bio__link say-hi-link">Say Hi</a>
+          <a
+            href="assets/Gamal Hafez - CV.docx"
+            target="_blank"
+            class="bio__link cv-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            src="assets/img/Gamal.png"
+            alt="Image of Gamal Hafez"
+            class="bio__pic"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="section skills section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li>
+            <h2 class="skills__item">HTML</h2>
+            <span class="skills__duration">3 months</span>
+          </li>
+          <li>
+            <h2 class="skills__item">CSS</h2>
+            <span class="skills__duration">3 months</span>
+          </li>
+          <li>
+            <h2 class="skills__item">Javascript</h2>
+            <span class="skills__duration">1 month</span>
+          </li>
+          <li>
+            <h2 class="skills__item">Python</h2>
+            <span class="skills__duration">1 year</span>
+          </li>
+          <li>
+            <h2 class="skills__item">SASS</h2>
+            <span class="skills__duration">1 month</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="section media">
+        <video class="media__video" poster="assets/img/poster.png" controls>
+          <source src="assets/videos/games.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="projects" class="section projects">
+        <h2 class="projects__title h2-heading">My projects</h2>
+
+        <img
+          class="projects__img"
+          src="assets/img/python-games.png"
+          alt="Python games projects"
+        />
+        <div class="projects__content">
+          <h3 class="projects__name">Python games</h3>
+          <p class="projects__describtion">
+            I developed three interactive games using Python, a classic Snake
+            game, a 2-player Ping Pong game, and an arcade-style Hungry Shapes
+            game with increasing difficulty and high score tracking. All were
+            built from scratch using object-oriented programming principles.
+          </p>
+          <span>
+            <a class="projects__link" href="#media">Games preview</a>
+            <a
+              class="projects__link"
+              href="https://www.linkedin.com/in/gamal-hafez-b8082b35a/details/projects/"
+              target="_blank"
+              >Games source code and more</a
+            >
+          </span>
+        </div>
+
+        <div class="projects__content">
+          <h3 class="projects__name">CSS and HTML projects</h3>
+          <p class="projects__describtion">
+            Four beginner-level web components using HTML and CSS, based on
+            real-world design challenges. Each project focused on layout
+            structure, typography, and responsive design fundamentals using
+            semantic HTML and clean CSS practices.
+          </p>
+          <span
+            ><a
+              class="projects__link"
+              href="https://www.linkedin.com/posts/gamal-hafez_frontendmentor-html-css-activity-7351258132884426752-NQR6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFl3stABX-OCwUCMr614EPgGdqxdrCUAaEk"
+              target="_blank"
+              >Projects detalis</a
+            ></span
+          >
+        </div>
+        <img
+          class="projects__img"
+          src="assets/img/css-project.PNG"
+          alt="newspage project preview"
+        />
+      </section>
+
+      <section id="clients" class="section section--with-bg clients">
+        <h2 class="h2-heading">
+          What My <br />
+          Clients Says.
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">Nothing yet ....</p>
+            <p class="clients__opinion">But great things</p>
+            <p class="clients__opinion">are coming — soon</p>
+            <p class="clients__opinion">inshallah.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div>
+          <p class="contact__text">
+            Want to collaborate or just share ideas? feel free to send me an
+            email anytime.
+          </p>
+
+          <a class="contact__mail" href="mailto:gamal.k.hafez@gmail.com"
+            >gamal.k.hafez@gmail.com</a
+          >
+          <ul class="contact__social-media">
+            <li>
+              <a href="https://www.linkedin.com/in/gamal-hafez/" target="_blank"
+                ><img
+                  class="contact__logo"
+                  src="assets/img/LinkedIn.svg"
+                  alt="LinkedIn logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/GamalHafez" target="_blank"
+                ><img
+                  class="contact__logo"
+                  src="assets/img/github.svg"
+                  alt="GitHub logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact__form-container">
+          <h2 class="h2-heading">
+            Let’s Work <br />
+            Together!
+          </h2>
+          <form class="contact__form" action="#" method="">
+            <input
+              class="contact__input"
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              class="contact__input"
+              type="tel"
+              name="phone"
+              placeholder="Phone No."
+              required
+            />
+            <textarea
+              class="contact__input contact__message"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="contact__button">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="section footer">&copy; 2025 by Gamal Hafez</footer>
+    </div>
+  </body>
+</html>
