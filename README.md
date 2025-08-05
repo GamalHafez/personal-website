@@ -5,7 +5,7 @@ Welcome to my personal portfolio website! This project represents a major step i
 
 ## 🚀 Live Preview
 
-🔗 [https://gamalhafez.github.io/personal-website/](https://gamalhafez.github.io/personal-website/)
+🔗 [View Live Site](https://gamalhafez.github.io/personal-website/)
 
 ---
 
