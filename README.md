@@ -24,9 +24,6 @@ This project helped me deepen my understanding of several core frontend concepts
 
 ## 📝 Important Notes
 
-> ⚠️ **The CV** included on the website is **outdated and used only for testing purposes**.  
-> A current version will be uploaded soon.
-
 > ⚠️ **The contact form** is **not connected to any backend or submission service**.  
 > It is a frontend-only form meant for layout and styling practice.
 
